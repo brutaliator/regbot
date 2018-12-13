@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="AnchorPane" fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="708.0" prefWidth="676.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="app.MajorScreenController">
+  <children>
+    <ScrollPane fx:id="scrollPane" hbarPolicy="NEVER" layoutX="14.0" layoutY="14.0" prefHeight="646.0" prefWidth="648.0" vbarPolicy="AS_NEEDED">
+      <content>
+        <VBox fx:id="mainPane" prefHeight="631.0" prefWidth="633.0" />
+      </content>
+    </ScrollPane>
+    <Button id="addField" fx:id="addButton" layoutX="559.0" layoutY="673.0" mnemonicParsing="false" text="Добавить поле" />
+  </children>
+</AnchorPane>
