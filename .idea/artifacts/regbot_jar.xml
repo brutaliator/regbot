@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="regbot:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/regbot_jar</output-path>
+    <root id="archive" name="regbot.jar">
+      <element id="module-output" name="regbot" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/jackson-core-2.7.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/jackson-core-2.9.6.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/jackson-annotations-2.7.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/jackson-databind-2.7.5.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/jnativehook-2.1.0.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

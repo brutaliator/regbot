@@ -5,6 +5,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
 
 <AnchorPane id="AnchorPane" fx:id="anchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="708.0" prefWidth="676.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="app.MajorScreenController">
   <children>
@@ -13,6 +14,7 @@
         <VBox fx:id="mainPane" prefHeight="631.0" prefWidth="633.0" />
       </content>
     </ScrollPane>
-    <Button id="addField" fx:id="addButton" layoutX="559.0" layoutY="673.0" mnemonicParsing="false" text="Добавить поле" />
+    <Button id="addField" fx:id="addButton" layoutX="559.0" layoutY="673.0" mnemonicParsing="false" onAction="#showAddModal" text="Добавить поле" />
+    <Text fx:id="activity_label" layoutX="15.0" layoutY="688.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" />
   </children>
 </AnchorPane>
